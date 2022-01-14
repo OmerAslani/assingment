@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>nesto</title>
+
+
+</head>
+
+<body>
+
+
+
+
+    <script>
+        var broj1 = prompt("Unesite jedan broj");
+        var broj2 = prompt("Unesite drugi broj");
+        var operacija = prompt("unesite operaciju koju zelite da izvrsite (+ , - , / ili *)");
+
+
+
+
+        switch (operacija) {
+            case "+":
+                alert(parseInt(broj1) + parseInt(broj2));
+                break;
+            case "-":
+                alert(parseInt(broj1) - parseInt(broj2));
+                break;
+            case "/":
+                alert(broj1 / broj2);
+                break;
+            case "*":
+                alert(broj1 * broj2);
+                break;
+            default:
+                alert("nepoznata operacija \n unesite : + , - , / , *  \n pritisnite OK da pokusate ponovo" );
+                window.location.reload();
+        }
+     
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
